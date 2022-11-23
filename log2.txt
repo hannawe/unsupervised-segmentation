@@ -1,0 +1,128 @@
+1
+batch  0
+output.shape torch.Size([187500, 100])
+1-0
+outputHP shape:  torch.Size([375, 500, 100])
+HPy, HPz:  torch.Size([374, 500, 100]) torch.Size([375, 499, 100])
+HPy_target, HPz_target:  torch.Size([374, 500, 100]) torch.Size([375, 499, 100])
+1-1
+im_target shape:  (187500,)
+nLabels:  100
+1-2
+torch.Size([187500, 100])
+torch.Size([187500])
+torch.Size([183526])
+output[inds_sim].shape:  torch.Size([183526, 100])
+target[inds_sim].shape:  torch.Size([183526])
+loss fn:  tensor(2.9496, device='cuda:0', grad_fn=<NllLossBackward0>)
+scr loss
+output[inds_scr].shape:  torch.Size([3974, 100])
+target[inds_scr].shape:  torch.Size([3974])
+tensor(5.0370, device='cuda:0', grad_fn=<NllLossBackward0>)
+tensor([ 12197,  12198,  12199,  ..., 163410, 163411, 163412], device='cuda:0')
+1-3
+0 / 5 |  label num : 100  | loss : 6.788749694824219
+1-4
+1-5
+batch  1
+output.shape torch.Size([187500, 100])
+1-0
+outputHP shape:  torch.Size([375, 500, 100])
+HPy, HPz:  torch.Size([374, 500, 100]) torch.Size([375, 499, 100])
+HPy_target, HPz_target:  torch.Size([374, 500, 100]) torch.Size([375, 499, 100])
+1-1
+im_target shape:  (187500,)
+nLabels:  100
+1-2
+torch.Size([187500, 100])
+torch.Size([187500])
+torch.Size([183526])
+output[inds_sim].shape:  torch.Size([183526, 100])
+target[inds_sim].shape:  torch.Size([183526])
+loss fn:  tensor(2.9845, device='cuda:0', grad_fn=<NllLossBackward0>)
+scr loss
+output[inds_scr].shape:  torch.Size([3974, 100])
+target[inds_scr].shape:  torch.Size([3974])
+tensor(4.5746, device='cuda:0', grad_fn=<NllLossBackward0>)
+tensor([ 12197,  12198,  12199,  ..., 163410, 163411, 163412], device='cuda:0')
+1-3
+1 / 5 |  label num : 100  | loss : 6.215336322784424
+1-4
+1-5
+batch  2
+output.shape torch.Size([187500, 100])
+1-0
+outputHP shape:  torch.Size([375, 500, 100])
+HPy, HPz:  torch.Size([374, 500, 100]) torch.Size([375, 499, 100])
+HPy_target, HPz_target:  torch.Size([374, 500, 100]) torch.Size([375, 499, 100])
+1-1
+im_target shape:  (187500,)
+nLabels:  99
+1-2
+torch.Size([187500, 100])
+torch.Size([187500])
+torch.Size([183526])
+output[inds_sim].shape:  torch.Size([183526, 100])
+target[inds_sim].shape:  torch.Size([183526])
+loss fn:  tensor(2.9854, device='cuda:0', grad_fn=<NllLossBackward0>)
+scr loss
+output[inds_scr].shape:  torch.Size([3974, 100])
+target[inds_scr].shape:  torch.Size([3974])
+tensor(4.3920, device='cuda:0', grad_fn=<NllLossBackward0>)
+tensor([ 12197,  12198,  12199,  ..., 163410, 163411, 163412], device='cuda:0')
+1-3
+2 / 5 |  label num : 99  | loss : 5.881637096405029
+1-4
+1-5
+batch  3
+output.shape torch.Size([187500, 100])
+1-0
+outputHP shape:  torch.Size([375, 500, 100])
+HPy, HPz:  torch.Size([374, 500, 100]) torch.Size([375, 499, 100])
+HPy_target, HPz_target:  torch.Size([374, 500, 100]) torch.Size([375, 499, 100])
+1-1
+im_target shape:  (187500,)
+nLabels:  95
+1-2
+torch.Size([187500, 100])
+torch.Size([187500])
+torch.Size([183526])
+output[inds_sim].shape:  torch.Size([183526, 100])
+target[inds_sim].shape:  torch.Size([183526])
+loss fn:  tensor(2.9229, device='cuda:0', grad_fn=<NllLossBackward0>)
+scr loss
+output[inds_scr].shape:  torch.Size([3974, 100])
+target[inds_scr].shape:  torch.Size([3974])
+tensor(4.2473, device='cuda:0', grad_fn=<NllLossBackward0>)
+tensor([ 12197,  12198,  12199,  ..., 163410, 163411, 163412], device='cuda:0')
+1-3
+3 / 5 |  label num : 95  | loss : 5.596672534942627
+1-4
+1-5
+batch  4
+output.shape torch.Size([187500, 100])
+1-0
+outputHP shape:  torch.Size([375, 500, 100])
+HPy, HPz:  torch.Size([374, 500, 100]) torch.Size([375, 499, 100])
+HPy_target, HPz_target:  torch.Size([374, 500, 100]) torch.Size([375, 499, 100])
+1-1
+im_target shape:  (187500,)
+nLabels:  92
+1-2
+torch.Size([187500, 100])
+torch.Size([187500])
+torch.Size([183526])
+output[inds_sim].shape:  torch.Size([183526, 100])
+target[inds_sim].shape:  torch.Size([183526])
+loss fn:  tensor(2.8209, device='cuda:0', grad_fn=<NllLossBackward0>)
+scr loss
+output[inds_scr].shape:  torch.Size([3974, 100])
+target[inds_scr].shape:  torch.Size([3974])
+tensor(4.0439, device='cuda:0', grad_fn=<NllLossBackward0>)
+tensor([ 12197,  12198,  12199,  ..., 163410, 163411, 163412], device='cuda:0')
+1-3
+4 / 5 |  label num : 92  | loss : 5.331314563751221
+1-4
+1-5
+2
+

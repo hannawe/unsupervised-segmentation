@@ -1,0 +1,46 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mask shape -1 (340, 500, 4)
+mask shape (340, 500)
+mask reshape (170000,)
+C:\Users\admin\miniconda3\envs\hanna_py37_default\lib\site-packages\torch\nn\_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='mean' instead.
+  warnings.warn(warning.format(ret))
+========================================== batch  0
+output.shape torch.Size([170000, 100])
+outputHP shape:  torch.Size([340, 500, 100])
+im_target shape:  (170000,)
+nLabels:  100
+output shape  torch.Size([170000, 100])
+target shape  torch.Size([170000])
+target_scr shape  torch.Size([170000])
+output[inds_sim] tensor([[-1.3193,  5.8703,  1.8631,  ...,  3.0440,  6.7820,  1.8351],
+        [ 2.0471,  2.7203,  3.8915,  ...,  4.2805, -3.0555, -3.4517],
+        [ 2.2633,  1.7425,  2.5799,  ...,  1.9453, -1.0338,  1.1803],
+        ...,
+        [-3.4905,  2.6077,  2.9899,  ...,  3.1262,  1.0911,  2.0089],
+        [ 0.6479,  4.9833,  2.8521,  ...,  1.9666, -3.5678,  3.1050],
+        [-1.3167,  1.3287,  2.4046,  ...,  3.3730, -0.7250,  0.8713]],
+       device='cuda:0', grad_fn=<IndexBackward0>)
+output[inds_scr] tensor([[-8.3001e-02, -5.1025e-03,  2.3476e-01,  ...,  2.0285e-01,
+          2.4713e-01, -8.2162e-01],
+        [ 5.4047e+00, -1.5855e+00,  2.1701e+00,  ..., -1.1022e+00,
+          6.6889e-01,  5.4636e+00],
+        [ 3.2830e+00,  4.6033e+00,  3.1876e+00,  ...,  4.3006e-01,
+         -3.4466e+00, -2.2278e+00],
+        ...,
+        [-4.0787e-01, -3.6547e-01,  3.3066e-01,  ..., -1.7347e-01,
+         -7.2124e-01, -5.5838e-01],
+        [-8.8834e-01, -3.7012e-01,  1.8355e-01,  ...,  5.0516e-01,
+         -9.9632e-01, -1.0514e+00],
+        [-6.0338e-02,  1.6915e-01,  2.8523e-01,  ...,  9.7304e-01,
+         -9.2046e-01, -1.0906e+00]], device='cuda:0', grad_fn=<IndexBackward0>)
+output[inds_sim].shape torch.Size([164823, 100])
+output[inds_scr].shape torch.Size([5177, 100])
+target[inds_sim] tensor([ 6,  6, 49,  ..., 37, 57,  7], device='cuda:0')
+target[inds_scr] tensor([71, 27,  7,  ..., 15, 63, 95], device='cuda:0')
+target[inds_sim].shape torch.Size([164823])
+target[inds_scr].shape torch.Size([5177])
+target_scr[inds_sim] tensor([255, 255, 255,  ..., 255, 255, 255], device='cuda:0',
+       dtype=torch.uint8)
+target_scr[inds_scr] tensor([0, 0, 0,  ..., 0, 0, 0], device='cuda:0', dtype=torch.uint8)
+target_scr[inds_sim].shape torch.Size([164823])
+target_scr[inds_scr].shape torch.Size([5177])

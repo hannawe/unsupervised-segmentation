@@ -1,0 +1,5 @@
+3 losses
+
+https://stats.stackexchange.com/questions/179026/objective-function-cost-function-loss-function-are-they-the-same-thing#:~:text=Loss%20function%20is%20usually%20a,2%2C%20used%20in%20linear%20regression
+
+scri loss large, tries to learn scribble more

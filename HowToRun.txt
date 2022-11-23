@@ -1,0 +1,6 @@
+python demo.py --input <path-to-image>
+
+move the image to this dir is better
+
+% note
+--input PASCAL_VOC_2012\2007_001774.jpg --scribble
