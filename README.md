@@ -2,8 +2,6 @@
 
 This pytorch code generates segmentation labels of an input image.
 
-![Unsupervised Image Segmentation with Scribbles](https://kanezaki.github.io/media/unsupervised_image_segmentation_with_scribbles.png)
-
 Wonjik Kim\*, Asako Kanezaki\*, and Masayuki Tanaka.
 **Unsupervised Learning of Image Segmentation Based on Differentiable Feature Clustering.** 
 *IEEE Transactions on Image Processing*, accepted, 2020.
